@@ -24,6 +24,11 @@
 		<Row ProjectType="PROJECT_TOWN_DESERT" Name="LOC_PROJECT_TOWN_DESERT_NAME" ShortName="LOC_PROJECT_TOWN_DESERT_SHORT_NAME" Description="LOC_PROJECT_TOWN_DESERT_DESCRIPTION" Food="true" ExclusiveSpecialization="true" TownOnly="true" PrereqPopulation="7" RequiresUnlock="true"/>
 		<Row ProjectType="PROJECT_TOWN_PLAINS" Name="LOC_PROJECT_TOWN_PLAINS_NAME" ShortName="LOC_PROJECT_TOWN_PLAINS_SHORT_NAME" Description="LOC_PROJECT_TOWN_PLAINS_DESCRIPTION" Food="true" ExclusiveSpecialization="true" TownOnly="true" PrereqPopulation="7" RequiresUnlock="true"/>
 		<Row ProjectType="PROJECT_TOWN_TROPICAL" Name="LOC_PROJECT_TOWN_TROPICAL_NAME" ShortName="LOC_PROJECT_TOWN_TROPICAL_SHORT_NAME" Description="LOC_PROJECT_TOWN_TROPICAL_DESCRIPTION" Food="true" ExclusiveSpecialization="true" TownOnly="true" PrereqPopulation="7" RequiresUnlock="true"/>
+		<!-- Reworked Town Focuses -->
+		<Update>
+			<Where ProjectType="PROJECT_TOWN_FORT"/>
+			<Set Description="LOC_PROJECT_TOWN_FORT_DESCRIPTION_MTF"/>
+		</Update>
 	</Projects>
 	<ProjectModifiers>
 		<!-- Town Project Modifiers -->
@@ -35,5 +40,10 @@
 		<Row ProjectType="PROJECT_TOWN_DESERT" ModifierId="GOLD_ON_DESERT_FROM_PROJECT"/>
 		<Row ProjectType="PROJECT_TOWN_PLAINS" ModifierId="PRODUCTION_ON_PLAINS_FROM_PROJECT"/>
 		<Row ProjectType="PROJECT_TOWN_TROPICAL" ModifierId="SCIENCE_ON_TROPICAL_FROM_PROJECT"/>
+		<!-- Reworked Town Focuses -->
+		<Update>
+			<Where ProjectType="PROJECT_TOWN_FORT"/>
+			<Set ModifierId="FORT_HEALING_FROM_PROJECT_MTF"/>
+		</Update>
 	</ProjectModifiers>
 </Database>

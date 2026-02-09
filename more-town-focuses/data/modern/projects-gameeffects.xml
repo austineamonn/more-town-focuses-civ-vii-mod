@@ -49,4 +49,12 @@
 	<Modifier id="ATTACH_SCIENCE_TROPICAL_FROM_PROJECT" collection="COLLECTION_OWNER" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
 		<Argument name="WarehouseYieldChange">TropicalTownCityHallTropicalScience</Argument>
 	</Modifier>
+	<!-- Factory Town -->
+	 <Modifier id="FACTORY_MODS_FROM_PROJECT_MTF" collection="COLLECTION_OWNER" effect="EFFECT_ATTACH_MODIFIERS">
+		<Argument name="ModifierId">ATTACH_FACTORY_DISCOUNT_FROM_PROJECT, ATTACH_RAILROAD_PORT_DISCOUNT_FROM_PROJECT_MTF, ATTACH_RESOURCE_SLOTS_FROM_PROJECT, ATTACH_LAND_TRADE_RANGE_IN_CITY_FROM_PROJECT, ATTACH_SEA_TRADE_RANGE_IN_CITY_FROM_PROJECT</Argument>
+	</Modifier>
+	 <Modifier id="ATTACH_RAILROAD_PORT_DISCOUNT_FROM_PROJECT_MTF" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_PLAYER_OR_CITY_BUILDING_PURCHASE_EFFICIENCY">
+		<Argument name="BuildingTag">RAIL_CONNECTION</Argument>
+		<Argument name="Percent">100</Argument>
+	</Modifier>
 </GameEffects>

@@ -12,9 +12,19 @@
 		<!-- Town Projects -->
 		<Row ProjectType="PROJECT_TOWN_TREASURE_COLONY" Name="LOC_PROJECT_TOWN_TREASURE_COLONY_NAME" ShortName="LOC_PROJECT_TOWN_TREASURE_COLONY_SHORT_NAME" Description="LOC_PROJECT_TOWN_TREASURE_COLONY_DESCRIPTION" Food="true" ExclusiveSpecialization="true" TownOnly="true" PrereqPopulation="7" RequiresUnlock="true"/>
 		<Row ProjectType="PROJECT_TOWN_PROTECTORATE" Name="LOC_PROJECT_TOWN_PROTECTORATE_NAME" ShortName="LOC_PROJECT_TOWN_PROTECTORATE_SHORT_NAME" Description="LOC_PROJECT_TOWN_PROTECTORATE_DESCRIPTION" Food="true" ExclusiveSpecialization="true" TownOnly="true" PrereqPopulation="7" RequiresUnlock="true"/>
+		<!-- Reworked Town Focuses -->
+		<Update>
+			<Where ProjectType="PROJECT_TOWN_TEMPLE"/>
+			<Set Description="LOC_PROJECT_TOWN_TEMPLE_DESCRIPTION_MTF"/>
+		</Update>
 	</Projects>
 	<ProjectModifiers>
 		<!-- Town Project Modifiers -->
 		<Row ProjectType="PROJECT_TOWN_TREASURE_COLONY" ModifierId="GOLD_ON_TREASURE_RESOURCES_FROM_PROJECT"/>
+		<!-- Reworked Town Focuses -->
+		<Update>
+			<Where ProjectType="PROJECT_TOWN_TEMPLE"/>
+			<Set ModifierId="ATTACH_TEMPLES_IN_CITY_FROM_PROJECT_MTF"/>
+		</Update>
 	</ProjectModifiers>
 </Database>

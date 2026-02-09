@@ -50,5 +50,9 @@
 		<Row Tag="LOC_PROJECT_TOWN_TROPICAL_DESCRIPTION">
 			<Text>+2 [icon:YIELD_SCIENCE] Science on [icon:CITY_UNIMPROVED] Tropical.</Text>
 		</Row>
+		<!-- Reworked Town Focuses -->
+		<Row Tag="LOC_PROJECT_TOWN_FACTORY_DESCRIPTION_MTF">
+			<Text>+100%[icon:YIELD_GOLD] Gold towards purchasing Factories, Rail Stations, and Ports in this town. +1 Resource Slot. +5 Trade Range. Must have an improved factory resource in this settlement.</Text>
+		</Row>
 	</EnglishText>
 </Database>

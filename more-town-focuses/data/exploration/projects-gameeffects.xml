@@ -6,6 +6,7 @@
 	</Modifier>
 	<Modifier id="ATTACH_GOLD_ON_TREASURE_RESOURCES_IN_CITY_FROM_PROJECT" collection="COLLECTION_CITY_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
 		<SubjectRequirements>
+			<Requirement inverse="true" type="REQUIREMENT_PLOT_IS_HOMELANDS"/>
 			<Requirement type="REQUIREMENT_PLOT_RESOURCE_VISIBLE"/>
 			<Requirement type="REQUIREMENT_PLOT_RESOURCE_CLASS_TYPE_MATCHES">
 				<Argument name="ResourceClass">RESOURCECLASS_TREASURE</Argument>
@@ -62,5 +63,13 @@
 	</Modifier>
 	<Modifier id="ATTACH_SCIENCE_TROPICAL_FROM_PROJECT" collection="COLLECTION_OWNER" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
 		<Argument name="WarehouseYieldChange">TropicalTownCityHallTropicalScience</Argument>
+	</Modifier>
+	<!-- Religious Site -->
+	<Modifier id="ATTACH_TEMPLES_IN_CITY_FROM_PROJECT_MTF" collection="COLLECTION_OWNER" effect="EFFECT_ATTACH_MODIFIERS">
+		<Argument name="ModifierId">HAPPINESS_ON_TEMPLES_IN_CITY_FROM_PROJECT, SLOTS_ON_TEMPLES_IN_CITY_FROM_PROJECT_MTF</Argument>
+	</Modifier>
+	<Modifier id="SLOTS_ON_TEMPLES_IN_CITY_FROM_PROJECT_MTF" collection="COLLECTION_OWNER" effect="EFFECT_CITY_ADJUST_GREAT_WORK_SLOTS">
+		<Argument name="ConstructibleType">BUILDING_TEMPLE</Argument>
+		<Argument name="Amount">2</Argument>
 	</Modifier>
 </GameEffects>

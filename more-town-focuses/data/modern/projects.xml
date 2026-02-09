@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Projects>
+		<!-- Reworked Town Focuses -->
+		<Update>
+			<Where ProjectType="PROJECT_TOWN_FACTORY"/>
+			<Set Description="LOC_PROJECT_TOWN_FACTORY_DESCRIPTION_MTF"/>
+		</Update>
+	</Projects>
+	<ProjectModifiers>
+		<!-- Reworked Town Focuses -->
+		<Update>
+			<Where ProjectType="PROJECT_TOWN_FACTORY"/>
+			<Set ModifierId="FACTORY_MODS_FROM_PROJECT_MTF"/>
+		</Update>
+	</ProjectModifiers>
+</Database>

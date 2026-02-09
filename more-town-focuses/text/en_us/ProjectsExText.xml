@@ -62,5 +62,9 @@
 		<Row Tag="LOC_PROJECT_TOWN_TROPICAL_DESCRIPTION">
 			<Text>+1 [icon:YIELD_SCIENCE] Science on [icon:CITY_UNIMPROVED] Tropical.</Text>
 		</Row>
+		<!-- Reworked Town Focuses -->
+		<Row Tag="LOC_PROJECT_TOWN_TEMPLE_DESCRIPTION_MTF">
+			<Text>+1[icon:YIELD_HAPPINESS] Happiness on all buildings and +2 Relic Slots on Temples in this Town.</Text>
+		</Row>
 	</EnglishText>
 </Database>

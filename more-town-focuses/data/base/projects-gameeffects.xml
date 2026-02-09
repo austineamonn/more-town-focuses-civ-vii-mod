@@ -21,4 +21,12 @@
 		<Argument name="Percent">50</Argument>
 		<Argument name="Tooltip">LOC_PROJECT_TOWN_LABOR_CAMP_NAME</Argument>
 	</Modifier>
+	<!-- Fort Town -->
+	<Modifier id="FORT_HEALING_FROM_PROJECT_MTF" collection="COLLECTION_OWNER" effect="EFFECT_ATTACH_MODIFIERS">
+		<Argument name="ModifierId">ATTACH_FORT_HEALING_FROM_PROJECT, ATTACH_FORT_HEALTH_FROM_PROJECT, ATTACH_FORT_WALLS_FROM_PROJECT, ATTACH_FORT_UNIT_PURCHASING_FROM_PROJECT</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_FORT_UNIT_PURCHASING_FROM_PROJECT" collection="COLLECTION_OWNER" effect="EFFECT_ADJUST_PLAYER_OR_CITY_UNIT_PURCHASE_EFFICIENCY">
+		<Argument name="Percent">25</Argument>
+		<Argument name="UnitTag">UNIT_CLASS_COMBAT</Argument>
+	</Modifier>
 </GameEffects>

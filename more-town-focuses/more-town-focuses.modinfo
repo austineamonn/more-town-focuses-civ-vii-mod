@@ -35,6 +35,9 @@
 					<Item>data/base/projects-gameeffects.xml</Item>
 					<Item>data/base/projects.xml</Item>
                 </UpdateDatabase>
+				<UpdateText>
+					<Item>text/en_us/ProjectsBaseText.xml</Item>
+                </UpdateText>
             </Actions>
         </ActionGroup>
 		<ActionGroup id="age-antiquity-main-more-town-focuses" scope="game" criteria="antiquity-age-current">
@@ -75,6 +78,7 @@
 					<Item>data/modern/civilizations.xml</Item>
 					<Item>data/modern/constructibles.xml</Item>
 					<Item>data/modern/projects-gameeffects.xml</Item>
+					<Item>data/modern/projects.xml</Item>
 				</UpdateDatabase>
 				<UpdateIcons>
 					<Item>data/icons/project-icons.xml</Item>
