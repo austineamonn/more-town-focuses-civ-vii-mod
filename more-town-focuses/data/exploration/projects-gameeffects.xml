@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- Treasure Colony -->
+	<Modifier id="GOLD_ON_TREASURE_RESOURCES_ADDITIONAL_TF_POINT_FROM_PROJECT" collection="COLLECTION_OWNER" effect="EFFECT_ATTACH_MODIFIERS">
+		<Argument name="ModifierId">ATTACH_GOLD_ON_TREASURE_RESOURCES_IN_CITY_FROM_PROJECT, ATTACH_ADDTIONAL_TF_POINT_IN_CITY_FROM_PROJECT</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_GOLD_ON_TREASURE_RESOURCES_IN_CITY_FROM_PROJECT" collection="COLLECTION_PLAYER_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_PLOT_RESOURCE_VISIBLE"/>
+			<Requirement type="REQUIREMENT_PLOT_RESOURCE_CLASS_TYPE_MATCHES">
+				<Argument name="ResourceClass">RESOURCECLASS_TREASURE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="Amount">2</Argument>
+		<Argument name="YieldType">YIELD_GOLD</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_ADDTIONAL_TF_POINT_IN_CITY_FROM_PROJECT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_CITY_AUTO_TREASURE_FLEET">
+		<Argument name="VP">1</Argument>
+	</Modifier>
+	<!-- Protectorate -->
+	<Modifier id="3_ADDITIONAL_TF_POINT_FROM_PROJECT" collection="COLLECTION_OWNER" effect="EFFECT_ATTACH_MODIFIERS">
+		<Argument name="ModifierId"> ATTACH_3_ADDTIONAL_TF_POINT_IN_CITY_FROM_PROJECT</Argument>
+	</Modifier>
+	<Modifier id="ATTACH_3_ADDTIONAL_TF_POINT_IN_CITY_FROM_PROJECT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_CITY_AUTO_TREASURE_FLEET">
+		<Argument name="VP">3</Argument>
+	</Modifier>
+</GameEffects>

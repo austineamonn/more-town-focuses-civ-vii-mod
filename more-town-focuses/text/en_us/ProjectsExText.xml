@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- Town Focuses -->
+		<Row Tag="LOC_PROJECT_TOWN_TREASURE_COLONY_NAME">
+			<Text>Treasure Colony</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_TOWN_TREASURE_COLONY_DESCRIPTION">
+			<Text>+2 [icon:YIELD_GOLD] Gold on Treasure Resources. [TIP:LOC_PEDIA_CONCEPTS_TREASURE_CONVOY_TOOLTIP]Treasure Convoys[/TIP] generated from this town are worth an additional Treasure Fleet Point.</Text>
+		</Row>
+	</EnglishText>
+</Database>

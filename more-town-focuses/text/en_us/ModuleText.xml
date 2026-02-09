@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_MODULE_MORE_TOWN_FOCUSES_NAME">
+			<Text>More Town Focuses</Text>
+		</Row>
+		<Row Tag="LOC_MODULE_MORE_TOWN_FOCUSES_DESCRIPTION">
+			<Text>Contains additional Town Focuses. Buff some weaker base game town focuses.</Text>
+		</Row>
+	</EnglishText>
+</Database>

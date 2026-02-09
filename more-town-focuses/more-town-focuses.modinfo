@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="more-town-focuses" version="1.0"
+	xmlns="ModInfo">
+	<Properties>
+		<Name>LOC_MODULE_MORE_TOWN_FOCUSES_NAME</Name>
+		<Description>LOC_MODULE_MORE_TOWN_FOCUSES_DESCRIPTION</Description>
+		<Authors>austineamonn</Authors>
+		<Package>DLC</Package>
+		<AffectsSavedGames>1</AffectsSavedGames>
+		<Version>1.0</Version>
+	</Properties>
+	<Dependencies>
+		<Mod id="base-standard" title="LOC_MODULE_BASE_STANDARD_NAME"/>
+	</Dependencies>
+	<ActionCriteria>
+		<Criteria id="antiquity-age-current">
+			<AgeInUse>AGE_ANTIQUITY</AgeInUse>
+		</Criteria>
+		<Criteria id="exploration-age-current">
+			<AgeInUse>AGE_EXPLORATION</AgeInUse>
+		</Criteria>
+		<Criteria id="modern-age-current">
+			<AgeInUse>AGE_MODERN</AgeInUse>
+		</Criteria>
+		<Criteria id="always">
+			<AlwaysMet></AlwaysMet>
+		</Criteria>
+	</ActionCriteria>
+	<ActionGroups>
+		<!-- More Town Focuses -->
+        <ActionGroup id="base-game-main-more-town-focuses" scope="game" criteria="always">
+            <Actions>
+                <UpdateDatabase>
+					<Item>data/base/civilizations-gameeffects.xml</Item>
+					<Item>data/base/projects-gameeffects.xml</Item>
+					<Item>data/base/projects.xml</Item>
+                </UpdateDatabase>
+            </Actions>
+        </ActionGroup>
+		<ActionGroup id="age-antiquity-main-more-town-focuses" scope="game" criteria="antiquity-age-current">
+			<Actions>
+				<UpdateDatabase>
+					<Item>data/antiquity/civilizations.xml</Item>
+					<Item>data/antiquity/constructibles.xml</Item>
+				</UpdateDatabase>
+				<UpdateIcons>
+					<Item>data/icons/project-icons.xml</Item>
+				</UpdateIcons>
+				<UpdateText>
+					<Item>text/en_us/ProjectsAqText.xml</Item>
+                </UpdateText>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-exploration-main-more-town-focuses" scope="game" criteria="exploration-age-current">
+			<Actions>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="age-modern-main-more-town-focuses" scope="game" criteria="modern-age-current">
+			<Actions>
+			</Actions>
+		</ActionGroup>
+		<ActionGroup id="shell-more-town-focuses" scope="shell" criteria="always">
+			<Actions>
+			</Actions>
+		</ActionGroup>
+	</ActionGroups>
+	<LocalizedText>
+		<File>text/en_us/ModuleText.xml</File>
+	</LocalizedText>
+</Mod>

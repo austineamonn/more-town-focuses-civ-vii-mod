@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_PROJECT"/>
+	</Kinds>
+	<Types>
+		<!-- Town Projects -->
+		<Row Type="PROJECT_TOWN_LABOR_CAMP" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_TOWN_RIVER" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_TOWN_LAKESIDE" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_TOWN_TUNDRA" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_TOWN_GRASSLAND" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_TOWN_DESERT" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_TOWN_PLAINS" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_TOWN_TROPICAL" Kind="KIND_PROJECT"/>
+	</Types>
+	<Projects>
+		<!-- Town Projects -->
+		<Row ProjectType="PROJECT_TOWN_LABOR_CAMP" Name="LOC_PROJECT_TOWN_LABOR_CAMP_NAME" ShortName="LOC_PROJECT_TOWN_LABOR_CAMP_SHORT_NAME" Description="LOC_PROJECT_TOWN_LABOR_CAMP_DESCRIPTION" Food="true" ExclusiveSpecialization="true" TownOnly="true" PrereqPopulation="7" RequiresUnlock="true"/>
+		<Row ProjectType="PROJECT_TOWN_RIVER" Name="LOC_PROJECT_TOWN_RIVER_NAME" ShortName="LOC_PROJECT_TOWN_RIVER_SHORT_NAME" Description="LOC_PROJECT_TOWN_RIVER_DESCRIPTION" Food="true" ExclusiveSpecialization="true" TownOnly="true" PrereqPopulation="7" RequiresUnlock="true"/>
+		<Row ProjectType="PROJECT_TOWN_LAKESIDE" Name="LOC_PROJECT_TOWN_LAKESIDE_NAME" ShortName="LOC_PROJECT_TOWN_LAKESIDE_SHORT_NAME" Description="LOC_PROJECT_TOWN_LAKESIDE_DESCRIPTION" Food="true" ExclusiveSpecialization="true" TownOnly="true" PrereqPopulation="7" RequiresUnlock="true"/>
+		<Row ProjectType="PROJECT_TOWN_TUNDRA" Name="LOC_PROJECT_TOWN_TUNDRA_NAME" ShortName="LOC_PROJECT_TOWN_TUNDRA_SHORT_NAME" Description="LOC_PROJECT_TOWN_TUNDRA_DESCRIPTION" Food="true" ExclusiveSpecialization="true" TownOnly="true" PrereqPopulation="7" RequiresUnlock="true"/>
+		<Row ProjectType="PROJECT_TOWN_GRASSLAND" Name="LOC_PROJECT_TOWN_GRASSLAND_NAME" ShortName="LOC_PROJECT_TOWN_GRASSLAND_SHORT_NAME" Description="LOC_PROJECT_TOWN_GRASSLAND_DESCRIPTION" Food="true" ExclusiveSpecialization="true" TownOnly="true" PrereqPopulation="7" RequiresUnlock="true"/>
+		<Row ProjectType="PROJECT_TOWN_DESERT" Name="LOC_PROJECT_TOWN_DESERT_NAME" ShortName="LOC_PROJECT_TOWN_DESERT_SHORT_NAME" Description="LOC_PROJECT_TOWN_DESERT_DESCRIPTION" Food="true" ExclusiveSpecialization="true" TownOnly="true" PrereqPopulation="7" RequiresUnlock="true"/>
+		<Row ProjectType="PROJECT_TOWN_PLAINS" Name="LOC_PROJECT_TOWN_PLAINS_NAME" ShortName="LOC_PROJECT_TOWN_PLAINS_SHORT_NAME" Description="LOC_PROJECT_TOWN_PLAINS_DESCRIPTION" Food="true" ExclusiveSpecialization="true" TownOnly="true" PrereqPopulation="7" RequiresUnlock="true"/>
+		<Row ProjectType="PROJECT_TOWN_TROPICAL" Name="LOC_PROJECT_TOWN_TROPICAL_NAME" ShortName="LOC_PROJECT_TOWN_TROPICAL_SHORT_NAME" Description="LOC_PROJECT_TOWN_TROPICAL_DESCRIPTION" Food="true" ExclusiveSpecialization="true" TownOnly="true" PrereqPopulation="7" RequiresUnlock="true"/>
+	</Projects>
+	<ProjectModifiers>
+		<!-- Town Project Modifiers -->
+		<Row ProjectType="PROJECT_TOWN_LABOR_CAMP" ModifierId="NEG_HAPPINNESS_DOUBLE_YIELDS_FROM_PROJECT"/>
+		<Row ProjectType="PROJECT_TOWN_RIVER" ModifierId="FOOD_ON_RIVERS_FROM_PROJECT"/>
+		<Row ProjectType="PROJECT_TOWN_LAKESIDE" ModifierId="FOOD_CULTURE_ON_LAKES_FROM_PROJECT"/>
+		<Row ProjectType="PROJECT_TOWN_TUNDRA" ModifierId="CULTURE_ON_TUNDRA_FROM_PROJECT"/>
+		<Row ProjectType="PROJECT_TOWN_GRASSLAND" ModifierId="FOOD_ON_GRASSLAND_FROM_PROJECT"/>
+		<Row ProjectType="PROJECT_TOWN_DESERT" ModifierId="GOLD_ON_DESERT_FROM_PROJECT"/>
+		<Row ProjectType="PROJECT_TOWN_PLAINS" ModifierId="PRODUCTION_ON_PLAINS_FROM_PROJECT"/>
+		<Row ProjectType="PROJECT_TOWN_TROPICAL" ModifierId="SCIENCE_ON_TROPICAL_FROM_PROJECT"/>
+	</ProjectModifiers>
+</Database>

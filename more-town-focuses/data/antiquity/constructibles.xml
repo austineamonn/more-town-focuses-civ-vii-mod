@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	
+	<Constructible_WarehouseYields>
+		<Row ConstructibleType="BUILDING_CITY_HALL" YieldChangeId="RiverTownCityHallMinorRiverFood" RequiresActivation="true"/>
+		<Row ConstructibleType="BUILDING_CITY_HALL" YieldChangeId="RiverTownCityHallNavigableRiverFood" RequiresActivation="true"/>
+		<Row ConstructibleType="BUILDING_CITY_HALL" YieldChangeId="LakesideTownCityHallLakeFood" RequiresActivation="true"/>
+		<Row ConstructibleType="BUILDING_CITY_HALL" YieldChangeId="LakesideTownCityHallLakeCulture" RequiresActivation="true"/>
+		<Row ConstructibleType="BUILDING_CITY_HALL" YieldChangeId="TundraTownCityHallTundraCulture" RequiresActivation="true"/>
+		<Row ConstructibleType="BUILDING_CITY_HALL" YieldChangeId="GrasslandTownCityHallGrasslandFood" RequiresActivation="true"/>
+		<Row ConstructibleType="BUILDING_CITY_HALL" YieldChangeId="DesertTownCityHallDesertGold" RequiresActivation="true"/>
+		<Row ConstructibleType="BUILDING_CITY_HALL" YieldChangeId="PlainsTownCityHallPlainsProduction" RequiresActivation="true"/>
+		<Row ConstructibleType="BUILDING_CITY_HALL" YieldChangeId="TropicalTownCityHallTropicalCulture" RequiresActivation="true"/>
+	</Constructible_WarehouseYields>
+	<Warehouse_YieldChanges>
+		<Row ID="RiverTownCityHallMinorRiverFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="2" MinorRiverInCity="true"/>
+		<Row ID="RiverTownCityHallNavigableRiverFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="2" NavigableRiverInCity="true"/>
+		<Row ID="LakesideTownCityHallLakeFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="2" LakeInCity="true"/>
+		<Row ID="LakesideTownCityHallLakeCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="1" LakeInCity="true"/>
+		<Row ID="TundraTownCityHallTundraCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="1" BiomeInCity="BIOME_TUNDRA"/>
+		<Row ID="GrasslandTownCityHallGrasslandFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="2" BiomeInCity="BIOME_GRASSLAND"/>
+		<Row ID="DesertTownCityHallDesertGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" BiomeInCity="BIOME_DESERT"/>
+		<Row ID="PlainsTownCityHallPlainsProduction" Age="AGE_ANTIQUITY" YieldType="YIELD_PRODUCTION" YieldChange="2" BiomeInCity="BIOME_PLAINS"/>
+		<Row ID="TropicalTownCityHallTropicalCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="1" BiomeInCity="BIOME_TROPICAL"/>
+	</Warehouse_YieldChanges>
+</Database>

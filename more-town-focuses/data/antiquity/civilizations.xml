@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<!-- Unlock Town Focuses -->
+	<TraitModifiers>
+		<Row TraitType="TRAIT_ANTIQUITY_CIV" ModifierId="TRAIT_MOD_TOWN_LABOR_CAMP_PROJECT"/>
+	</TraitModifiers>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_ANTIQUITY_CIV" ModifierId="TRAIT_MOD_TOWN_RIVER_PROJECT"/>
+	</TraitModifiers>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_ANTIQUITY_CIV" ModifierId="TRAIT_MOD_TOWN_LAKESIDE_PROJECT"/>
+	</TraitModifiers>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_ANTIQUITY_CIV" ModifierId="TRAIT_MOD_TOWN_TUNDRA_PROJECT"/>
+	</TraitModifiers>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_ANTIQUITY_CIV" ModifierId="TRAIT_MOD_TOWN_GRASSLAND_PROJECT"/>
+	</TraitModifiers>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_ANTIQUITY_CIV" ModifierId="TRAIT_MOD_TOWN_DESERT_PROJECT"/>
+	</TraitModifiers>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_ANTIQUITY_CIV" ModifierId="TRAIT_MOD_TOWN_PLAINS_PROJECT"/>
+	</TraitModifiers>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_ANTIQUITY_CIV" ModifierId="TRAIT_MOD_TOWN_TROPICAL_PROJECT"/>
+	</TraitModifiers>
+</Database>

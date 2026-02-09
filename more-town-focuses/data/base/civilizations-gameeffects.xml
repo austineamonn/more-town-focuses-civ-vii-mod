@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- ==================================================	-->
+	<!--	Generic Modifiers							-->
+	<!-- ==================================================	-->
+	<Modifier id="TRAIT_MOD_TOWN_LABOR_CAMP_PROJECT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_UNLOCK_PROJECT">
+		<!-- Must be a conquered settlement -->
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+			<Requirement inverse="true" type="REQUIREMENT_CITY_IS_ORIGINAL_OWNER"/>
+		</SubjectRequirements>
+		<Argument name="ProjectType">PROJECT_TOWN_LABOR_CAMP</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_TOWN_RIVER_PROJECT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_UNLOCK_PROJECT">
+		<!-- The city hall must be adjacent to a navigable river -->
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+			<Requirement type="REQUIREMENT_PLOT_ADJACENT_TO_RIVER">
+				<Argument name="Navigable">true</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProjectType">PROJECT_TOWN_RIVER</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_TOWN_LAKESIDE_PROJECT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_UNLOCK_PROJECT">
+		<!-- The city hall must be adjacent to a lake -->
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+			<Requirement type="REQUIREMENT_PLOT_ADJACENT_TO_LAKE"/>
+		</SubjectRequirements>
+		<Argument name="ProjectType">PROJECT_TOWN_LAKESIDE</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_TOWN_TUNDRA_PROJECT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_UNLOCK_PROJECT">
+		<!-- The city hall must be on tundra -->
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+			<Requirement type="REQUIREMENT_PLOT_BIOME_TYPE_MATCHES">
+				<Argument name="BiomeType">BIOME_TUNDRA</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProjectType">PROJECT_TOWN_TUNDRA</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_TOWN_GRASSLAND_PROJECT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_UNLOCK_PROJECT">
+		<!-- The city hall must be on grassland -->
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+			<Requirement type="REQUIREMENT_PLOT_BIOME_TYPE_MATCHES">
+				<Argument name="BiomeType">BIOME_GRASSLAND</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProjectType">PROJECT_TOWN_GRASSLAND</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_TOWN_DESERT_PROJECT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_UNLOCK_PROJECT">
+		<!-- The city hall must be on desert -->
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+			<Requirement type="REQUIREMENT_PLOT_BIOME_TYPE_MATCHES">
+				<Argument name="BiomeType">BIOME_DESERT</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProjectType">PROJECT_TOWN_DESERT</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_TOWN_PLAINS_PROJECT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_UNLOCK_PROJECT">
+		<!-- The city hall must be on plains -->
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+			<Requirement type="REQUIREMENT_PLOT_BIOME_TYPE_MATCHES">
+				<Argument name="BiomeType">BIOME_PLAINS</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProjectType">PROJECT_TOWN_PLAINS</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_TOWN_TROPICAL_PROJECT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_UNLOCK_PROJECT">
+		<!-- The city hall must be on tropical -->
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+			<Requirement type="REQUIREMENT_PLOT_BIOME_TYPE_MATCHES">
+				<Argument name="BiomeType">BIOME_TROPICAL</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProjectType">PROJECT_TOWN_TROPICAL</Argument>
+	</Modifier>
+</GameEffects>

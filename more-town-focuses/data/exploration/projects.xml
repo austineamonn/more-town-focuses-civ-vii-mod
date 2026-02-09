@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_PROJECT"/>
+	</Kinds>
+	<Types>
+		<!-- Town Projects -->
+		<Row Type="PROJECT_TOWN_TREASURE_COLONY" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_TOWN_PROTECTORATE" Kind="KIND_PROJECT"/>
+	</Types>
+	<Projects>
+		<!-- Town Projects -->
+		<Row ProjectType="PROJECT_TOWN_TREASURE_COLONY" Name="LOC_PROJECT_TOWN_TREASURE_COLONY_NAME" ShortName="LOC_PROJECT_TOWN_TREASURE_COLONY_SHORT_NAME" Description="LOC_PROJECT_TOWN_TREASURE_COLONY_DESCRIPTION" Food="true" ExclusiveSpecialization="true" TownOnly="true" PrereqPopulation="7" RequiresUnlock="true"/>
+		<Row ProjectType="PROJECT_TOWN_PROTECTORATE" Name="LOC_PROJECT_TOWN_PROTECTORATE_NAME" ShortName="LOC_PROJECT_TOWN_PROTECTORATE_SHORT_NAME" Description="LOC_PROJECT_TOWN_PROTECTORATE_DESCRIPTION" Food="true" ExclusiveSpecialization="true" TownOnly="true" PrereqPopulation="7" RequiresUnlock="true"/>
+	</Projects>
+	<ProjectModifiers>
+		<!-- Town Project Modifiers -->
+		<Row ProjectType="PROJECT_TOWN_TREASURE_COLONY" ModifierId="GOLD_ON_TREASURE_RESOURCES_ADDITIONAL_TF_POINT_FROM_PROJECT"/>
+		<Row ProjectType="PROJECT_TOWN_PROTECTORATE" ModifierId="3_ADDITIONAL_TF_POINT_FROM_PROJECT"/>
+	</ProjectModifiers>
+</Database>

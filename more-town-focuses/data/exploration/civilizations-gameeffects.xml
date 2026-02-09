@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameEffects xmlns="GameEffects">
+	<!-- ==================================================	-->
+	<!--	Generic Modifiers							-->
+	<!-- ==================================================	-->
+	<Modifier id="TRAIT_MOD_TOWN_TREASURE_COLONY_PROJECT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_UNLOCK_PROJECT">
+		<!-- Must be distant lands w/ a worked treasure resource -->
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+			<Requirement type="REQUIREMENT_CITY_IS_DISTANT_LANDS"/>
+			<Requirement type="REQUIREMENT_CITY_HAS_RESOURCE">
+				<Argument name="ResourceClassType">RESOURCECLASS_TREASURE</Argument>
+				<Argument name="All">false</Argument>
+				<Argument name="Produced">true</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="ProjectType">PROJECT_TOWN_TREASURE_COLONY</Argument>
+	</Modifier>
+	<Modifier id="TRAIT_MOD_TOWN_PROTECTORATE_PROJECT" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_CITY_UNLOCK_PROJECT">
+		<!-- Must be distant lands and conquered -->
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+			<Requirement type="REQUIREMENT_CITY_IS_DISTANT_LANDS"/>
+			<Requirement inverse="true" type="REQUIREMENT_CITY_IS_ORIGINAL_OWNER"/>
+		</SubjectRequirements>
+		<Argument name="ProjectType">PROJECT_TOWN_PROTECTORATE</Argument>
+	</Modifier>
+</GameEffects>
