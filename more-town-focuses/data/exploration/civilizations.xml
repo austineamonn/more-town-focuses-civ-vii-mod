@@ -31,4 +31,11 @@
 	<TraitModifiers>
 		<Row TraitType="TRAIT_EXPLORATION_CIV" ModifierId="TRAIT_MOD_TOWN_PROTECTORATE_PROJECT"/>
 	</TraitModifiers>
+	<!-- Treasure Fleet Modifiers -->
+	<TraitModifiers>
+		<Row TraitType="TRAIT_EXPLORATION_CIV" ModifierId="TRAIT_MOD_TOWN_TREASURE_COLONY_PROJECT_TF"/>
+	</TraitModifiers>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_EXPLORATION_CIV" ModifierId="TRAIT_MOD_TOWN_PROTECTORATE_PROJECT_TF"/>
+	</TraitModifiers>
 </Database>

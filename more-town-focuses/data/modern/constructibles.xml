@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Warehouse_YieldChanges>
+		<!-- Town Specializations -->
+		<Row ID="RiverTownCityHallMinorRiverFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="4" MinorRiverInCity="true"/>
+		<Row ID="RiverTownCityHallNavigableRiverFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="4" NavigableRiverInCity="true"/>
+		<Row ID="LakesideTownCityHallLakeFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="4" LakeInCity="true"/>
+		<Row ID="LakesideTownCityHallLakeCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="2" LakeInCity="true"/>
+		<Row ID="TundraTownCityHallTundraCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_CULTURE" YieldChange="2" BiomeInCity="BIOME_TUNDRA"/>
+		<Row ID="GrasslandTownCityHallGrasslandFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="4" BiomeInCity="BIOME_GRASSLAND"/>
+		<Row ID="DesertTownCityHallDesertGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="4" BiomeInCity="BIOME_DESERT"/>
+		<Row ID="PlainsTownCityHallPlainsProduction" Age="AGE_ANTIQUITY" YieldType="YIELD_PRODUCTION" YieldChange="4" BiomeInCity="BIOME_PLAINS"/>
+		<Row ID="TropicalTownCityHallTropicalScience" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="2" BiomeInCity="BIOME_TROPICAL"/>
+	</Warehouse_YieldChanges>
+</Database>

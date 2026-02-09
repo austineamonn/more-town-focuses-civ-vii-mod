@@ -6,49 +6,49 @@
 			<Text>Labor Camp</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_TOWN_LABOR_CAMP_DESCRIPTION">
-			<Text>+50% Yield on [icon:CITY_RURAL] improvements, except [icon:YIELD_HAPPINESS] Happiness. -5 [icon:YIELD_HAPPINESS] Happiness.</Text>
+			<Text>+50% Yield on [icon:CITY_RURAL] improvements, except [icon:YIELD_HAPPINESS] Happiness. -15 [icon:YIELD_HAPPINESS] Happiness.</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_TOWN_RIVER_NAME">
 			<Text>River Town</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_TOWN_RIVER_DESCRIPTION">
-			<Text>+2 [icon:YIELD_FOOD] Food on [icon:CITY_UNIMPROVED] Minor and Navigable River Terrain.</Text>
+			<Text>+4 [icon:YIELD_FOOD] Food on [icon:CITY_UNIMPROVED] Minor and Navigable River Terrain.</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_TOWN_LAKESIDE_NAME">
 			<Text>Lakeside Town</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_TOWN_LAKESIDE_DESCRIPTION">
-			<Text>+2 [icon:YIELD_FOOD] Food and +1 [icon:YIELD_CULTURE] Culture on [icon:CITY_UNIMPROVED] Lake tiles.</Text>
+			<Text>+4 [icon:YIELD_FOOD] Food and +2 [icon:YIELD_CULTURE] Culture on [icon:CITY_UNIMPROVED] Lake tiles.</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_TOWN_TUNDRA_NAME">
 			<Text>Tundra Town</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_TOWN_TUNDRA_DESCRIPTION">
-			<Text>+1 [icon:YIELD_CULTURE] Culture on [icon:CITY_UNIMPROVED] Tundra.</Text>
+			<Text>+2 [icon:YIELD_CULTURE] Culture on [icon:CITY_UNIMPROVED] Tundra.</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_TOWN_GRASSLAND_NAME">
 			<Text>Grassland Town</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_TOWN_GRASSLAND_DESCRIPTION">
-			<Text>+2 [icon:YIELD_FOOD] Food on [icon:CITY_UNIMPROVED] Grassland.</Text>
+			<Text>+4 [icon:YIELD_FOOD] Food on [icon:CITY_UNIMPROVED] Grassland.</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_TOWN_DESERT_NAME">
 			<Text>Desert Town</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_TOWN_DESERT_DESCRIPTION">
-			<Text>+2 [icon:YIELD_GOLD] Gold on [icon:CITY_UNIMPROVED] Desert.</Text>
+			<Text>+4 [icon:YIELD_GOLD] Gold on [icon:CITY_UNIMPROVED] Desert.</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_TOWN_PLAINS_NAME">
 			<Text>Plains Town</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_TOWN_PLAINS_DESCRIPTION">
-			<Text>+2 [icon:YIELD_PRODUCTION] Production on [icon:CITY_UNIMPROVED] Plains.</Text>
+			<Text>+4 [icon:YIELD_PRODUCTION] Production on [icon:CITY_UNIMPROVED] Plains.</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_TOWN_TROPICAL_NAME">
 			<Text>Tropical Town</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_TOWN_TROPICAL_DESCRIPTION">
-			<Text>+1 [icon:YIELD_SCIENCE] Science on [icon:CITY_UNIMPROVED] Tropical.</Text>
+			<Text>+2 [icon:YIELD_SCIENCE] Science on [icon:CITY_UNIMPROVED] Tropical.</Text>
 		</Row>
 	</EnglishText>
 </Database>

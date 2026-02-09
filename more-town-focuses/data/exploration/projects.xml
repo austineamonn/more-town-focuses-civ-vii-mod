@@ -15,7 +15,6 @@
 	</Projects>
 	<ProjectModifiers>
 		<!-- Town Project Modifiers -->
-		<Row ProjectType="PROJECT_TOWN_TREASURE_COLONY" ModifierId="GOLD_ON_TREASURE_RESOURCES_ADDITIONAL_TF_POINT_FROM_PROJECT"/>
-		<Row ProjectType="PROJECT_TOWN_PROTECTORATE" ModifierId="3_ADDITIONAL_TF_POINT_FROM_PROJECT"/>
+		<Row ProjectType="PROJECT_TOWN_TREASURE_COLONY" ModifierId="GOLD_ON_TREASURE_RESOURCES_FROM_PROJECT"/>
 	</ProjectModifiers>
 </Database>

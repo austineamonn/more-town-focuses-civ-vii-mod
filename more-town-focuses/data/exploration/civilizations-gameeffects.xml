@@ -25,4 +25,24 @@
 		</SubjectRequirements>
 		<Argument name="ProjectType">PROJECT_TOWN_PROTECTORATE</Argument>
 	</Modifier>
+	<!-- Treasure Fleet Modifiers - placed here to ensure they don't multiply for each town with the specialty -->
+	<Modifier id="TRAIT_MOD_TOWN_TREASURE_COLONY_PROJECT_TF" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_CITY_AUTO_TREASURE_FLEET">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
+				<Argument name="ProjectType">PROJECT_TOWN_TREASURE_COLONY</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="VP">1</Argument>
+	</Modifier>
+	<!-- Protectorate -->
+	<Modifier id="TRAIT_MOD_TOWN_PROTECTORATE_PROJECT_TF" collection="COLLECTION_PLAYER_CITIES" effect="EFFECT_ADJUST_CITY_AUTO_TREASURE_FLEET">
+		<SubjectRequirements>
+			<Requirement type="REQUIREMENT_CITY_IS_TOWN"/>
+			<Requirement type="REQUIREMENT_CITY_HAS_PROJECT">
+				<Argument name="ProjectType">PROJECT_TOWN_PROTECTORATE</Argument>
+			</Requirement>
+		</SubjectRequirements>
+		<Argument name="VP">3</Argument>
+	</Modifier>
 </GameEffects>

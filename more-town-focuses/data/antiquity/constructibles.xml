@@ -10,6 +10,6 @@
 		<Row ID="GrasslandTownCityHallGrasslandFood" Age="AGE_ANTIQUITY" YieldType="YIELD_FOOD" YieldChange="2" BiomeInCity="BIOME_GRASSLAND"/>
 		<Row ID="DesertTownCityHallDesertGold" Age="AGE_ANTIQUITY" YieldType="YIELD_GOLD" YieldChange="2" BiomeInCity="BIOME_DESERT"/>
 		<Row ID="PlainsTownCityHallPlainsProduction" Age="AGE_ANTIQUITY" YieldType="YIELD_PRODUCTION" YieldChange="2" BiomeInCity="BIOME_PLAINS"/>
-		<Row ID="TropicalTownCityHallTropicalCulture" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="1" BiomeInCity="BIOME_TROPICAL"/>
+		<Row ID="TropicalTownCityHallTropicalScience" Age="AGE_ANTIQUITY" YieldType="YIELD_SCIENCE" YieldChange="1" BiomeInCity="BIOME_TROPICAL"/>
 	</Warehouse_YieldChanges>
 </Database>

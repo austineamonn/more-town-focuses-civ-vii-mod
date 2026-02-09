@@ -18,56 +18,7 @@
 		</SubjectRequirements>
 		<Argument name="YieldType">YIELD_FOOD, YIELD_PRODUCTION, YIELD_GOLD, YIELD_SCIENCE, YIELD_CULTURE, YIELD_DIPLOMACY</Argument>
 		<Argument name="Apply">Rate</Argument>
-		<Argument name="Percent">100</Argument>
+		<Argument name="Percent">50</Argument>
 		<Argument name="Tooltip">LOC_PROJECT_TOWN_LABOR_CAMP_NAME</Argument>
-	</Modifier>
-	<!-- River Town -->
-	<Modifier id="FOOD_ON_RIVERS_FROM_PROJECT" collection="COLLECTION_OWNER" effect="EFFECT_ATTACH_MODIFIERS">
-		<Argument name="ModifierId">ATTACH_FOOD_RIVER_FROM_PROJECT</Argument>
-	</Modifier>
-	<Modifier id="ATTACH_FOOD_RIVER_FROM_PROJECT" collection="COLLECTION_OWNER" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
-		<Argument name="WarehouseYieldChange">RiverTownCityHallMinorRiverFood, RiverTownCityHallNavigableRiverFood</Argument>
-	</Modifier>
-	<!-- Lakeside Town -->
-	<Modifier id="FOOD_CULTURE_ON_LAKES_FROM_PROJECT" collection="COLLECTION_OWNER" effect="EFFECT_ATTACH_MODIFIERS">
-		<Argument name="ModifierId">ATTACH_FOOD_CULTURE_LAKE_FROM_PROJECT</Argument>
-	</Modifier>
-	<Modifier id="ATTACH_FOOD_CULTURE_LAKE_FROM_PROJECT" collection="COLLECTION_OWNER" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
-		<Argument name="WarehouseYieldChange">LakesideTownCityHallLakeFood, LakesideTownCityHallLakeCulture</Argument>
-	</Modifier>
-	<!-- Tundra Town -->
-	<Modifier id="CULTURE_ON_TUNDRA_FROM_PROJECT" collection="COLLECTION_OWNER" effect="EFFECT_ATTACH_MODIFIERS">
-		<Argument name="ModifierId">ATTACH_CULTURE_TUNDRA_FROM_PROJECT</Argument>
-	</Modifier>
-	<Modifier id="ATTACH_CULTURE_TUNDRA_FROM_PROJECT" collection="COLLECTION_OWNER" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
-		<Argument name="WarehouseYieldChange">TundraTownCityHallTundraCulture</Argument>
-	</Modifier>
-	<!-- Grassland Town -->
-	<Modifier id="FOOD_ON_GRASSLAND_FROM_PROJECT" collection="COLLECTION_OWNER" effect="EFFECT_ATTACH_MODIFIERS">
-		<Argument name="ModifierId">ATTACH_FOOD_GRASSLAND_FROM_PROJECT</Argument>
-	</Modifier>
-	<Modifier id="ATTACH_FOOD_GRASSLAND_FROM_PROJECT" collection="COLLECTION_OWNER" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
-		<Argument name="WarehouseYieldChange">GrasslandTownCityHallGrasslandFood</Argument>
-	</Modifier>
-	<!-- Desert Town -->
-	<Modifier id="GOLD_ON_DESERT_FROM_PROJECT" collection="COLLECTION_OWNER" effect="EFFECT_ATTACH_MODIFIERS">
-		<Argument name="ModifierId">ATTACH_GOLD_DESERT_FROM_PROJECT</Argument>
-	</Modifier>
-	<Modifier id="ATTACH_GOLD_DESERT_FROM_PROJECT" collection="COLLECTION_OWNER" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
-		<Argument name="WarehouseYieldChange">DesertTownCityHallDesertGold</Argument>
-	</Modifier>
-	<!-- Plains Town -->
-	<Modifier id="PRODUCTION_ON_PLAINS_FROM_PROJECT" collection="COLLECTION_OWNER" effect="EFFECT_ATTACH_MODIFIERS">
-		<Argument name="ModifierId">ATTACH_PRODUCTION_PLAINS_FROM_PROJECT</Argument>
-	</Modifier>
-	<Modifier id="ATTACH_PRODUCTION_PLAINS_FROM_PROJECT" collection="COLLECTION_OWNER" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
-		<Argument name="WarehouseYieldChange">PlainsTownCityHallPlainsProduction</Argument>
-	</Modifier>
-	<!-- Tropical Town -->
-	<Modifier id="SCIENCE_ON_TROPICAL_FROM_PROJECT" collection="COLLECTION_OWNER" effect="EFFECT_ATTACH_MODIFIERS">
-		<Argument name="ModifierId">ATTACH_SCIENCE_TROPICAL_FROM_PROJECT</Argument>
-	</Modifier>
-	<Modifier id="ATTACH_SCIENCE_TROPICAL_FROM_PROJECT" collection="COLLECTION_OWNER" effect="EFFECT_CITY_GRANT_WAREHOUSE_YIELD">
-		<Argument name="WarehouseYieldChange">TropicalTownCityHallTropicalCulture</Argument>
 	</Modifier>
 </GameEffects>
