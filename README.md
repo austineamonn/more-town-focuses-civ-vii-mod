@@ -20,8 +20,6 @@ factory town - +100% towards purchasing train station and port
 
 ## Latest Update:
 
-added town specializations.
+Fixed bug with all settlements being impacted by biome towns.
 
 ## Current Issues:
-
-All settlements are impacted for biome / warehouse towns.

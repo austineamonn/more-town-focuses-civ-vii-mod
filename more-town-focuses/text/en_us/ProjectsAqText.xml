@@ -30,7 +30,7 @@
 			<Text>Grassland Town</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_TOWN_GRASSLAND_DESCRIPTION">
-			<Text>+1 [icon:YIELD_FOOD] Food on [icon:CITY_UNIMPROVED] Grassland.</Text>
+			<Text>+2 [icon:YIELD_FOOD] Food on [icon:CITY_UNIMPROVED] Grassland.</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_TOWN_DESERT_NAME">
 			<Text>Desert Town</Text>
@@ -42,7 +42,7 @@
 			<Text>Plains Town</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_TOWN_PLAINS_DESCRIPTION">
-			<Text>+1 [icon:YIELD_PRODUCTION] Production on [icon:CITY_UNIMPROVED] Plains.</Text>
+			<Text>+2 [icon:YIELD_PRODUCTION] Production on [icon:CITY_UNIMPROVED] Plains.</Text>
 		</Row>
 		<Row Tag="LOC_PROJECT_TOWN_TROPICAL_NAME">
 			<Text>Tropical Town</Text>
