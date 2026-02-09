@@ -4,7 +4,7 @@
 		<!-- Town Focuses -->
 		<!-- Reworked Town Focuses -->
 		<Row Tag="LOC_PROJECT_TOWN_FORT_DESCRIPTION_MTF">
-			<Text>+5 Healing to Units. +25 Health to Walls in this Town. +25%[icon:YIELD_GOLD] Gold towards purchasing Military Units in this town. Can Purchase additional Fortifications in this Town.</Text>
+			<Text>+5 Healing to Units. +25 Health to Walls in this Town. +10%[icon:YIELD_GOLD] Gold towards purchasing Military Units. Can Purchase additional Fortifications in this Town.</Text>
 		</Row>
 	</EnglishText>
 </Database>

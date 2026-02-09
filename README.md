@@ -16,7 +16,7 @@ tundra - culture, grassland - food, desert - gold, plains - production, tropical
 
 bonus for unique improvements
 
-fort towns - gain +25% towards purchasing military units
+fort towns - gain +10% towards purchasing military units for all settlements
 religious site - +2 slots
 factory town - +100% towards purchasing train station and port
 
@@ -24,8 +24,6 @@ nerf the biome ones by requiring 3 settlements in said biome for unlock
 
 ## Latest Update:
 
-Added the buffed base town focuses.
+Resolved issues with distant lands focuses being available in the homelands. Changed fort town bonus to work for all settlements (since it cannot just work for one).
 
 ## Current Issues:
-
-REQUIREMENT_CITY_IS_DISTANT_LANDS does not work for EFFECT_CITY_UNLOCK_PROJECT, so the distant land only focuses are selectable in the homelands, though they have no effect.

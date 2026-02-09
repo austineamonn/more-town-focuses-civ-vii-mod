@@ -6,7 +6,6 @@
 	</Modifier>
 	<Modifier id="ATTACH_GOLD_ON_TREASURE_RESOURCES_IN_CITY_FROM_PROJECT" collection="COLLECTION_CITY_PLOT_YIELDS" effect="EFFECT_PLOT_ADJUST_YIELD">
 		<SubjectRequirements>
-			<Requirement inverse="true" type="REQUIREMENT_PLOT_IS_HOMELANDS"/>
 			<Requirement type="REQUIREMENT_PLOT_RESOURCE_VISIBLE"/>
 			<Requirement type="REQUIREMENT_PLOT_RESOURCE_CLASS_TYPE_MATCHES">
 				<Argument name="ResourceClass">RESOURCECLASS_TREASURE</Argument>

@@ -84,7 +84,7 @@
 					<Item>data/icons/project-icons.xml</Item>
 				</UpdateIcons>
 				<UpdateText>
-					<Item>text/en_us/ProjectMoText.xml</Item>
+					<Item>text/en_us/ProjectsMoText.xml</Item>
                 </UpdateText>
 			</Actions>
 		</ActionGroup>
